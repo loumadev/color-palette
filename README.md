@@ -1,7 +1,7 @@
 # Color palette generator
 
 <p align="center">
-	Generate beautiful color palettes using cosine waves. Tweak the parameters to create a unique and highly customizable palette.
+	Generate beautiful color palettes using cosine waves.<br>Tweak the parameters to create a unique and highly customizable palette.
 </p>
 
 <p align="center">
@@ -34,6 +34,8 @@ Clicking the randomize button will generate a new palette with random parameters
 
 > [!CAUTION]
 > When generating a new palette using randomization, the current palette will be lost, so make sure to save it (copy the URL) before clicking the button.
+
+Parameter changes, including randomization are debounced at 500ms, so please, make sure to wait at least half a second between tweaking the parameters and copying the URL or otherwise the URL will be outdated.
 
 ## Color list
 
