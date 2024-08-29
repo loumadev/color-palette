@@ -16,9 +16,9 @@ Try it out at [https://work.loumadev.eu/color-palette/page.html](https://work.lo
    ```bash
    git clone https://github.com/loumadev/color-palette.git
    ```
-2. Open file `page.html` in your browser
-or
-2. Launch a local web server of your choice in the root directory of the repository and open `http://localhost:8000/page.html` in your browser
+2. Navigate to page (choose one of the following options)
+   * Open file `page.html` in your browser
+   * Launch a local web server of your choice in the root directory of the repository and open `http://localhost:8000/page.html` in your browser
 
 # User guide
 
@@ -26,11 +26,14 @@ The generator uses a single cosine wave per channel (3 in total) to generate the
 
 ## Parameters
 
-There are 4 parameters per channel (A, B, C, D; 16 in total) controlling the Y offset, amplitude, frequency and angular shift (X offset) of the wave. Each change to the parameters will update the palette as well as the URL containing the parameters, which can be easily shared with others or saved for later use.
+There are 4 parameters per channel (A, B, C, D; 16 in total) controlling the **Y offset**, **amplitude**, **frequency** and **angular shift** (X offset) of the wave. Each change to the parameters will update the palette as well as the URL containing the parameters, which can be easily shared with others or saved for later use.
 
 ## Randomize button
 
-Clicking the randomize button will generate a new palette with random parameters. The previous palette will be lost, so make sure to save it before clicking the button.
+Clicking the randomize button will generate a new palette with random parameters. 
+
+> [!CAUTION]
+> When generating a new palette using randomization, the current palette will be lost, so make sure to save it (copy the URL) before clicking the button.
 
 ## Color list
 
